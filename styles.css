@@ -1,0 +1,77 @@
+/* styles.css */
+* {
+  font-family: cairo, serif;
+}
+body {
+  direction: rtl;
+  text-align: right;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: gray;
+}
+
+.count-section,
+.tadabor-section,
+.dua-section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  font-weight: bold;
+  margin: 10px 0;
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: lightgreen;
+  color: #333;
+}
+
+#count {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+#dhikr-text,
+#dua-text {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#tadabor-container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  width: 300px;
+  box-shadow: 0 0 40px #a7a7a7;
+  border: 2px solid rgb(229, 229, 229);
+  border-radius: 10px;
+}
